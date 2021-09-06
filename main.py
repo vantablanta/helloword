@@ -45,7 +45,24 @@ print(sent % ("Barack", "Obama"))
 sent = "%s is %d years old"
 print(sent % ("Obama", 50))
 
+# lists
+shopList = ["Apples", "Oranges", "Bananas", "Mangoes", "Bread"]
+print(shopList[4])
+print(shopList[1:3])
+shopList.append("Melon")
+print(shopList)
+del shopList[1]
+print(shopList)
+print(len(shopList))
+shopList2 = ["Shoes", "Dresses", "Cars"]
+newList= shopList2 + shopList
+print(newList)
 
+Nums = [2, 5, 10, 89, 17]
+print(max(Nums))
+
+
+# Dictionaries
 
 
 
