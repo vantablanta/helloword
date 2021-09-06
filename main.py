@@ -55,7 +55,7 @@ del shopList[1]
 print(shopList)
 print(len(shopList))
 shopList2 = ["Shoes", "Dresses", "Cars"]
-newList= shopList2 + shopList
+newList = shopList2 + shopList
 print(newList)
 
 Nums = [2, 5, 10, 89, 17]
@@ -63,7 +63,34 @@ print(max(Nums))
 
 
 # Dictionaries
+students = {
+    "Bob": 15,
+    "Emily": 13,
+    "Rachel": 12
+}
+print(students["Bob"])
+students["Bob"] = 20
+print(students["Bob"])
+del students['Bob']
+print(students)
 
+# tuples are immutable... cant be updated
+tup1 = ("oranges", "apples", "bananas")
+print(tup1[0])
+tup2 = ('boots', 'ginger', 'eyes')
+tup3 = tup1 + tup2
+print(tup3)
 
+# conditional statements
+if 5 > 10:
+    print("the condition 5 > 10 is true")
+else:
+    print('the condition 5 > 10 was not true')
 
-
+age = 10
+if age < 25:
+    print('you are young')
+elif age >= 25 and age <= 28:
+    print('you are a young adult')
+else:
+    print('you are old')
