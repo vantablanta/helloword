@@ -22,6 +22,30 @@ print(sent1 + sent2)
 
 sent = "Michelle is playing  cricket"
 print(sent[0:9])
+print(sent[-3])
+
+# placeholders
+person = "Ochi "
+text = "%s is 15 years old"
+print(text)
+print(text % person)
+
+boy = "Chris"
+text = "%s is a good boy"
+print(text % boy)
+print(text % "Nico")
+
+girl = "Shiko"
+text = "%s loves to walk"
+print(text % girl)
+print(text % "Njeri")
+
+sent = "%s %s is the President of the united States"
+print(sent % ("Barack", "Obama"))
+sent = "%s is %d years old"
+print(sent % ("Obama", 50))
+
+
 
 
 
