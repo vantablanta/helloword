@@ -94,3 +94,20 @@ elif age >= 25 and age <= 28:
     print('you are a young adult')
 else:
     print('you are old')
+
+# iteration
+listName = ['Apples', 'Bananas', 'Mangoes', 'Cherries']
+tup4 = (1, 2, 3, 4, 5)
+
+for item in listName:
+    print(item)
+
+for item in tup4:
+    print(item)
+
+for i in range(1, 11):
+    print(i)
+
+for i in range(0, 51, 5):
+    print(i)
+
