@@ -116,3 +116,23 @@ class Child(Parent):
 c = Child()
 c.child_function()
 c.parent_function()
+
+class Parent:
+    def __init__(self):
+        pass
+
+    def test(self):
+        print("parent")
+
+
+class Child(Parent):
+    def __init__(self):
+        pass
+
+    def test(self):
+        print("child")
+
+
+c = Child()
+c.test()
+
