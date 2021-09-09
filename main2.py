@@ -90,3 +90,29 @@ man.get_age()
 man.get_name()
 
 
+# inheritance
+
+class Parent:
+    def __init__(self):
+        print("This is the Parent class")
+
+    def parent_function(self):
+        print('This is the Parent function')
+
+
+p = Parent()
+
+p.parent_function()
+
+
+class Child(Parent):
+    def __init__(self):
+        print("This is a child class")
+
+    def child_function(self):
+        print("This is a child function")
+
+
+c = Child()
+c.child_function()
+c.parent_function()
